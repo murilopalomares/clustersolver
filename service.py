@@ -10,6 +10,9 @@ from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+import os, hmac
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi import Depends
 
 
 # =====================================================
@@ -1211,7 +1214,6 @@ class Cluster(BaseModel):
 
 
 class SolveRequest(BaseModel):
-    token: str
     algoritmo: str
     clients: List[Client]
     clusters: List[Cluster]
@@ -1232,7 +1234,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_TOKEN = "meu_token_supersecreto"
+
+security = HTTPBearer()
+API_TOKEN = os.getenv("API_TOKEN", "meu_token_supersecreto")  # defina no Heroku Config Vars
+
+def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    token = credentials.credentials
+    if not hmac.compare_digest(token, API_TOKEN):
+        raise HTTPException(status_code=401, detail="Token inválido ou ausente")
 
 
 @app.get("/health")
@@ -1241,7 +1250,7 @@ def health():
 
 
 @app.post("/solve")
-def solve(req: SolveRequest):
+def solve(req: SolveRequest, _=Depends(verify_token)):
     if req.token != API_TOKEN:
         raise HTTPException(status_code=401, detail="Token inválido")
 
