@@ -7,5 +7,5 @@ python -m venv .venv
 # source .venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 set API_TOKEN=meu_token_supersecreto  # Windows
-# export API_TOKEN=meu_token_supersecreto  # macOS/Linux
+# export API_TOKEN=meu_token_supersecreto  # macOS/Lin ux
 uvicorn app_fastapi:app --reload --host 0.0.0.0 --port 8000
