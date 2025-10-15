@@ -1,0 +1,1284 @@
+{
+  "token": "meu_token_supersecreto",
+  "algoritmo": "hybrid",
+  "clients": [
+    {
+      "id": "c1",
+      "nome": "Cliente 1",
+      "lat": -23.474973,
+      "lon": -46.632571,
+      "demanda1": 1,
+      "demanda2": 8,
+      "skills": []
+    },
+    {
+      "id": "c2",
+      "nome": "Cliente 2",
+      "lat": -23.590173,
+      "lon": -46.633681,
+      "demanda1": 3,
+      "demanda2": 10,
+      "skills": [
+        "s2",
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "id": "c3",
+      "nome": "Cliente 3",
+      "lat": -23.556021,
+      "lon": -46.39944,
+      "demanda1": 1,
+      "demanda2": 4,
+      "skills": [
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c4",
+      "nome": "Cliente 4",
+      "lat": -23.526389,
+      "lon": -46.42675,
+      "demanda1": 3,
+      "demanda2": 1,
+      "skills": [
+        "s5",
+        "s4"
+      ]
+    },
+    {
+      "id": "c5",
+      "nome": "Cliente 5",
+      "lat": -23.673654,
+      "lon": -46.488321,
+      "demanda1": 1,
+      "demanda2": 7,
+      "skills": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "id": "c6",
+      "nome": "Cliente 6",
+      "lat": -23.646067,
+      "lon": -46.870221,
+      "demanda1": 5,
+      "demanda2": 3,
+      "skills": []
+    },
+    {
+      "id": "c7",
+      "nome": "Cliente 7",
+      "lat": -23.548982,
+      "lon": -46.865192,
+      "demanda1": 4,
+      "demanda2": 10,
+      "skills": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "id": "c8",
+      "nome": "Cliente 8",
+      "lat": -23.474101,
+      "lon": -46.477076,
+      "demanda1": 3,
+      "demanda2": 7,
+      "skills": [
+        "s4",
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "id": "c9",
+      "nome": "Cliente 9",
+      "lat": -23.592842,
+      "lon": -46.32982,
+      "demanda1": 3,
+      "demanda2": 6,
+      "skills": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "id": "c10",
+      "nome": "Cliente 10",
+      "lat": -23.547427,
+      "lon": -46.499281,
+      "demanda1": 3,
+      "demanda2": 3,
+      "skills": [
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "id": "c11",
+      "nome": "Cliente 11",
+      "lat": -23.683885,
+      "lon": -46.450223,
+      "demanda1": 5,
+      "demanda2": 7,
+      "skills": [
+        "s1"
+      ]
+    },
+    {
+      "id": "c12",
+      "nome": "Cliente 12",
+      "lat": -23.473751,
+      "lon": -46.467318,
+      "demanda1": 4,
+      "demanda2": 0,
+      "skills": []
+    },
+    {
+      "id": "c13",
+      "nome": "Cliente 13",
+      "lat": -23.606966,
+      "lon": -46.47906,
+      "demanda1": 4,
+      "demanda2": 7,
+      "skills": [
+        "s1"
+      ]
+    },
+    {
+      "id": "c14",
+      "nome": "Cliente 14",
+      "lat": -23.545654,
+      "lon": -46.839125,
+      "demanda1": 1,
+      "demanda2": 3,
+      "skills": []
+    },
+    {
+      "id": "c15",
+      "nome": "Cliente 15",
+      "lat": -23.637402,
+      "lon": -46.802666,
+      "demanda1": 3,
+      "demanda2": 9,
+      "skills": [
+        "s5",
+        "s3"
+      ]
+    },
+    {
+      "id": "c16",
+      "nome": "Cliente 16",
+      "lat": -23.529291,
+      "lon": -46.537014,
+      "demanda1": 4,
+      "demanda2": 0,
+      "skills": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "id": "c17",
+      "nome": "Cliente 17",
+      "lat": -23.514572,
+      "lon": -46.653294,
+      "demanda1": 1,
+      "demanda2": 4,
+      "skills": [
+        "s4",
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "id": "c18",
+      "nome": "Cliente 18",
+      "lat": -23.408613,
+      "lon": -46.309233,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "id": "c19",
+      "nome": "Cliente 19",
+      "lat": -23.649206,
+      "lon": -46.558746,
+      "demanda1": 5,
+      "demanda2": 6,
+      "skills": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "id": "c20",
+      "nome": "Cliente 20",
+      "lat": -23.423569,
+      "lon": -46.387499,
+      "demanda1": 4,
+      "demanda2": 9,
+      "skills": [
+        "s5",
+        "s3",
+        "s2"
+      ]
+    },
+    {
+      "id": "c21",
+      "nome": "Cliente 21",
+      "lat": -23.617871,
+      "lon": -46.399907,
+      "demanda1": 5,
+      "demanda2": 10,
+      "skills": []
+    },
+    {
+      "id": "c22",
+      "nome": "Cliente 22",
+      "lat": -23.653537,
+      "lon": -46.649888,
+      "demanda1": 4,
+      "demanda2": 5,
+      "skills": [
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "id": "c23",
+      "nome": "Cliente 23",
+      "lat": -23.484261,
+      "lon": -46.675947,
+      "demanda1": 5,
+      "demanda2": 6,
+      "skills": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "id": "c24",
+      "nome": "Cliente 24",
+      "lat": -23.526013,
+      "lon": -46.446399,
+      "demanda1": 3,
+      "demanda2": 1,
+      "skills": []
+    },
+    {
+      "id": "c25",
+      "nome": "Cliente 25",
+      "lat": -23.630802,
+      "lon": -46.561494,
+      "demanda1": 2,
+      "demanda2": 7,
+      "skills": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "id": "c26",
+      "nome": "Cliente 26",
+      "lat": -23.507663,
+      "lon": -46.620528,
+      "demanda1": 1,
+      "demanda2": 4,
+      "skills": [
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "id": "c27",
+      "nome": "Cliente 27",
+      "lat": -23.66839,
+      "lon": -46.657575,
+      "demanda1": 2,
+      "demanda2": 5,
+      "skills": [
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c28",
+      "nome": "Cliente 28",
+      "lat": -23.600814,
+      "lon": -46.516263,
+      "demanda1": 1,
+      "demanda2": 7,
+      "skills": [
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "id": "c29",
+      "nome": "Cliente 29",
+      "lat": -23.473603,
+      "lon": -46.527528,
+      "demanda1": 2,
+      "demanda2": 5,
+      "skills": []
+    },
+    {
+      "id": "c30",
+      "nome": "Cliente 30",
+      "lat": -23.558518,
+      "lon": -46.619966,
+      "demanda1": 3,
+      "demanda2": 5,
+      "skills": [
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "id": "c31",
+      "nome": "Cliente 31",
+      "lat": -23.529577,
+      "lon": -46.371095,
+      "demanda1": 4,
+      "demanda2": 5,
+      "skills": [
+        "s5",
+        "s3"
+      ]
+    },
+    {
+      "id": "c32",
+      "nome": "Cliente 32",
+      "lat": -23.54324,
+      "lon": -46.676444,
+      "demanda1": 4,
+      "demanda2": 0,
+      "skills": []
+    },
+    {
+      "id": "c33",
+      "nome": "Cliente 33",
+      "lat": -23.648885,
+      "lon": -46.796544,
+      "demanda1": 2,
+      "demanda2": 9,
+      "skills": []
+    },
+    {
+      "id": "c34",
+      "nome": "Cliente 34",
+      "lat": -23.674182,
+      "lon": -46.357725,
+      "demanda1": 4,
+      "demanda2": 6,
+      "skills": [
+        "s4"
+      ]
+    },
+    {
+      "id": "c35",
+      "nome": "Cliente 35",
+      "lat": -23.422543,
+      "lon": -46.863784,
+      "demanda1": 3,
+      "demanda2": 4,
+      "skills": []
+    },
+    {
+      "id": "c36",
+      "nome": "Cliente 36",
+      "lat": -23.687547,
+      "lon": -46.799384,
+      "demanda1": 4,
+      "demanda2": 2,
+      "skills": []
+    },
+    {
+      "id": "c37",
+      "nome": "Cliente 37",
+      "lat": -23.414361,
+      "lon": -46.528268,
+      "demanda1": 2,
+      "demanda2": 10,
+      "skills": [
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c38",
+      "nome": "Cliente 38",
+      "lat": -23.570713,
+      "lon": -46.315119,
+      "demanda1": 5,
+      "demanda2": 7,
+      "skills": [
+        "s2"
+      ]
+    },
+    {
+      "id": "c39",
+      "nome": "Cliente 39",
+      "lat": -23.480778,
+      "lon": -46.759923,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": [
+        "s2",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "id": "c40",
+      "nome": "Cliente 40",
+      "lat": -23.591082,
+      "lon": -46.501998,
+      "demanda1": 3,
+      "demanda2": 5,
+      "skills": [
+        "s5",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c41",
+      "nome": "Cliente 41",
+      "lat": -23.402513,
+      "lon": -46.357012,
+      "demanda1": 4,
+      "demanda2": 7,
+      "skills": [
+        "s4",
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "id": "c42",
+      "nome": "Cliente 42",
+      "lat": -23.634878,
+      "lon": -46.83363,
+      "demanda1": 4,
+      "demanda2": 2,
+      "skills": [
+        "s5",
+        "s3"
+      ]
+    },
+    {
+      "id": "c43",
+      "nome": "Cliente 43",
+      "lat": -23.514225,
+      "lon": -46.859862,
+      "demanda1": 5,
+      "demanda2": 7,
+      "skills": [
+        "s2",
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "id": "c44",
+      "nome": "Cliente 44",
+      "lat": -23.570608,
+      "lon": -46.587547,
+      "demanda1": 1,
+      "demanda2": 2,
+      "skills": []
+    },
+    {
+      "id": "c45",
+      "nome": "Cliente 45",
+      "lat": -23.408402,
+      "lon": -46.30201,
+      "demanda1": 2,
+      "demanda2": 5,
+      "skills": []
+    },
+    {
+      "id": "c46",
+      "nome": "Cliente 46",
+      "lat": -23.453014,
+      "lon": -46.406993,
+      "demanda1": 5,
+      "demanda2": 10,
+      "skills": [
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "id": "c47",
+      "nome": "Cliente 47",
+      "lat": -23.552918,
+      "lon": -46.458661,
+      "demanda1": 3,
+      "demanda2": 8,
+      "skills": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "id": "c48",
+      "nome": "Cliente 48",
+      "lat": -23.453175,
+      "lon": -46.531906,
+      "demanda1": 4,
+      "demanda2": 6,
+      "skills": [
+        "s5"
+      ]
+    },
+    {
+      "id": "c49",
+      "nome": "Cliente 49",
+      "lat": -23.486156,
+      "lon": -46.423948,
+      "demanda1": 2,
+      "demanda2": 1,
+      "skills": [
+        "s2"
+      ]
+    },
+    {
+      "id": "c50",
+      "nome": "Cliente 50",
+      "lat": -23.532282,
+      "lon": -46.580063,
+      "demanda1": 2,
+      "demanda2": 4,
+      "skills": [
+        "s4",
+        "s5",
+        "s3"
+      ]
+    },
+    {
+      "id": "c51",
+      "nome": "Cliente 51",
+      "lat": -23.602327,
+      "lon": -46.437263,
+      "demanda1": 4,
+      "demanda2": 6,
+      "skills": []
+    },
+    {
+      "id": "c52",
+      "nome": "Cliente 52",
+      "lat": -23.613764,
+      "lon": -46.502327,
+      "demanda1": 4,
+      "demanda2": 9,
+      "skills": [
+        "s3",
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "id": "c53",
+      "nome": "Cliente 53",
+      "lat": -23.649837,
+      "lon": -46.392242,
+      "demanda1": 2,
+      "demanda2": 5,
+      "skills": []
+    },
+    {
+      "id": "c54",
+      "nome": "Cliente 54",
+      "lat": -23.539188,
+      "lon": -46.656192,
+      "demanda1": 2,
+      "demanda2": 0,
+      "skills": [
+        "s3"
+      ]
+    },
+    {
+      "id": "c55",
+      "nome": "Cliente 55",
+      "lat": -23.487107,
+      "lon": -46.883276,
+      "demanda1": 2,
+      "demanda2": 5,
+      "skills": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "id": "c56",
+      "nome": "Cliente 56",
+      "lat": -23.609256,
+      "lon": -46.711979,
+      "demanda1": 3,
+      "demanda2": 10,
+      "skills": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "id": "c57",
+      "nome": "Cliente 57",
+      "lat": -23.511247,
+      "lon": -46.432505,
+      "demanda1": 5,
+      "demanda2": 0,
+      "skills": []
+    },
+    {
+      "id": "c58",
+      "nome": "Cliente 58",
+      "lat": -23.408454,
+      "lon": -46.536872,
+      "demanda1": 5,
+      "demanda2": 8,
+      "skills": []
+    },
+    {
+      "id": "c59",
+      "nome": "Cliente 59",
+      "lat": -23.452687,
+      "lon": -46.515885,
+      "demanda1": 3,
+      "demanda2": 9,
+      "skills": [
+        "s1"
+      ]
+    },
+    {
+      "id": "c60",
+      "nome": "Cliente 60",
+      "lat": -23.616352,
+      "lon": -46.615066,
+      "demanda1": 4,
+      "demanda2": 6,
+      "skills": []
+    },
+    {
+      "id": "c61",
+      "nome": "Cliente 61",
+      "lat": -23.643914,
+      "lon": -46.859919,
+      "demanda1": 3,
+      "demanda2": 9,
+      "skills": [
+        "s5",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c62",
+      "nome": "Cliente 62",
+      "lat": -23.679339,
+      "lon": -46.668296,
+      "demanda1": 4,
+      "demanda2": 8,
+      "skills": [
+        "s4",
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "id": "c63",
+      "nome": "Cliente 63",
+      "lat": -23.531833,
+      "lon": -46.871413,
+      "demanda1": 1,
+      "demanda2": 8,
+      "skills": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "id": "c64",
+      "nome": "Cliente 64",
+      "lat": -23.539898,
+      "lon": -46.316678,
+      "demanda1": 1,
+      "demanda2": 0,
+      "skills": []
+    },
+    {
+      "id": "c65",
+      "nome": "Cliente 65",
+      "lat": -23.418188,
+      "lon": -46.731568,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": []
+    },
+    {
+      "id": "c66",
+      "nome": "Cliente 66",
+      "lat": -23.427146,
+      "lon": -46.842439,
+      "demanda1": 4,
+      "demanda2": 7,
+      "skills": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "id": "c67",
+      "nome": "Cliente 67",
+      "lat": -23.632219,
+      "lon": -46.422059,
+      "demanda1": 1,
+      "demanda2": 7,
+      "skills": []
+    },
+    {
+      "id": "c68",
+      "nome": "Cliente 68",
+      "lat": -23.561612,
+      "lon": -46.658019,
+      "demanda1": 5,
+      "demanda2": 7,
+      "skills": []
+    },
+    {
+      "id": "c69",
+      "nome": "Cliente 69",
+      "lat": -23.624947,
+      "lon": -46.576901,
+      "demanda1": 4,
+      "demanda2": 10,
+      "skills": [
+        "s3",
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "id": "c70",
+      "nome": "Cliente 70",
+      "lat": -23.458383,
+      "lon": -46.327986,
+      "demanda1": 5,
+      "demanda2": 6,
+      "skills": [
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "id": "c71",
+      "nome": "Cliente 71",
+      "lat": -23.623334,
+      "lon": -46.848277,
+      "demanda1": 4,
+      "demanda2": 8,
+      "skills": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "id": "c72",
+      "nome": "Cliente 72",
+      "lat": -23.68708,
+      "lon": -46.867807,
+      "demanda1": 4,
+      "demanda2": 8,
+      "skills": [
+        "s4",
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "id": "c73",
+      "nome": "Cliente 73",
+      "lat": -23.6913,
+      "lon": -46.434317,
+      "demanda1": 3,
+      "demanda2": 4,
+      "skills": [
+        "s3"
+      ]
+    },
+    {
+      "id": "c74",
+      "nome": "Cliente 74",
+      "lat": -23.557494,
+      "lon": -46.784766,
+      "demanda1": 2,
+      "demanda2": 7,
+      "skills": [
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "id": "c75",
+      "nome": "Cliente 75",
+      "lat": -23.635364,
+      "lon": -46.545397,
+      "demanda1": 5,
+      "demanda2": 9,
+      "skills": [
+        "s3",
+        "s5",
+        "s2"
+      ]
+    },
+    {
+      "id": "c76",
+      "nome": "Cliente 76",
+      "lat": -23.472094,
+      "lon": -46.874851,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": [
+        "s4",
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "id": "c77",
+      "nome": "Cliente 77",
+      "lat": -23.476371,
+      "lon": -46.535594,
+      "demanda1": 5,
+      "demanda2": 2,
+      "skills": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "id": "c78",
+      "nome": "Cliente 78",
+      "lat": -23.416923,
+      "lon": -46.883509,
+      "demanda1": 3,
+      "demanda2": 5,
+      "skills": [
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "id": "c79",
+      "nome": "Cliente 79",
+      "lat": -23.525136,
+      "lon": -46.315156,
+      "demanda1": 1,
+      "demanda2": 8,
+      "skills": [
+        "s4"
+      ]
+    },
+    {
+      "id": "c80",
+      "nome": "Cliente 80",
+      "lat": -23.622482,
+      "lon": -46.452968,
+      "demanda1": 5,
+      "demanda2": 4,
+      "skills": [
+        "s2",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c81",
+      "nome": "Cliente 81",
+      "lat": -23.403844,
+      "lon": -46.402368,
+      "demanda1": 1,
+      "demanda2": 10,
+      "skills": []
+    },
+    {
+      "id": "c82",
+      "nome": "Cliente 82",
+      "lat": -23.655699,
+      "lon": -46.826561,
+      "demanda1": 4,
+      "demanda2": 0,
+      "skills": [
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c83",
+      "nome": "Cliente 83",
+      "lat": -23.602009,
+      "lon": -46.769592,
+      "demanda1": 5,
+      "demanda2": 6,
+      "skills": [
+        "s5"
+      ]
+    },
+    {
+      "id": "c84",
+      "nome": "Cliente 84",
+      "lat": -23.448416,
+      "lon": -46.612528,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": []
+    },
+    {
+      "id": "c85",
+      "nome": "Cliente 85",
+      "lat": -23.566185,
+      "lon": -46.863352,
+      "demanda1": 1,
+      "demanda2": 2,
+      "skills": [
+        "s4"
+      ]
+    },
+    {
+      "id": "c86",
+      "nome": "Cliente 86",
+      "lat": -23.624022,
+      "lon": -46.389042,
+      "demanda1": 4,
+      "demanda2": 8,
+      "skills": [
+        "s3"
+      ]
+    },
+    {
+      "id": "c87",
+      "nome": "Cliente 87",
+      "lat": -23.593251,
+      "lon": -46.474946,
+      "demanda1": 2,
+      "demanda2": 8,
+      "skills": []
+    },
+    {
+      "id": "c88",
+      "nome": "Cliente 88",
+      "lat": -23.542135,
+      "lon": -46.766552,
+      "demanda1": 1,
+      "demanda2": 2,
+      "skills": []
+    },
+    {
+      "id": "c89",
+      "nome": "Cliente 89",
+      "lat": -23.480921,
+      "lon": -46.63507,
+      "demanda1": 4,
+      "demanda2": 0,
+      "skills": [
+        "s1",
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "id": "c90",
+      "nome": "Cliente 90",
+      "lat": -23.428965,
+      "lon": -46.483115,
+      "demanda1": 1,
+      "demanda2": 7,
+      "skills": [
+        "s5"
+      ]
+    },
+    {
+      "id": "c91",
+      "nome": "Cliente 91",
+      "lat": -23.463502,
+      "lon": -46.35481,
+      "demanda1": 2,
+      "demanda2": 6,
+      "skills": [
+        "s4",
+        "s5",
+        "s2"
+      ]
+    },
+    {
+      "id": "c92",
+      "nome": "Cliente 92",
+      "lat": -23.639964,
+      "lon": -46.351374,
+      "demanda1": 3,
+      "demanda2": 3,
+      "skills": [
+        "s3"
+      ]
+    },
+    {
+      "id": "c93",
+      "nome": "Cliente 93",
+      "lat": -23.49357,
+      "lon": -46.878309,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": [
+        "s3",
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "id": "c94",
+      "nome": "Cliente 94",
+      "lat": -23.541453,
+      "lon": -46.409662,
+      "demanda1": 3,
+      "demanda2": 0,
+      "skills": []
+    },
+    {
+      "id": "c95",
+      "nome": "Cliente 95",
+      "lat": -23.64849,
+      "lon": -46.644921,
+      "demanda1": 3,
+      "demanda2": 2,
+      "skills": [
+        "s4"
+      ]
+    },
+    {
+      "id": "c96",
+      "nome": "Cliente 96",
+      "lat": -23.514289,
+      "lon": -46.49011,
+      "demanda1": 2,
+      "demanda2": 0,
+      "skills": [
+        "s2",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "id": "c97",
+      "nome": "Cliente 97",
+      "lat": -23.588638,
+      "lon": -46.671782,
+      "demanda1": 2,
+      "demanda2": 8,
+      "skills": [
+        "s1"
+      ]
+    },
+    {
+      "id": "c98",
+      "nome": "Cliente 98",
+      "lat": -23.541541,
+      "lon": -46.57784,
+      "demanda1": 2,
+      "demanda2": 2,
+      "skills": [
+        "s4",
+        "s3",
+        "s2"
+      ]
+    },
+    {
+      "id": "c99",
+      "nome": "Cliente 99",
+      "lat": -23.669139,
+      "lon": -46.486241,
+      "demanda1": 1,
+      "demanda2": 1,
+      "skills": []
+    },
+    {
+      "id": "c100",
+      "nome": "Cliente 100",
+      "lat": -23.679652,
+      "lon": -46.492343,
+      "demanda1": 5,
+      "demanda2": 5,
+      "skills": [
+        "s3",
+        "s5",
+        "s1"
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "k1",
+      "capacidade1": 58,
+      "capacidade2": 427,
+      "skills_requeridas": [
+        "s3"
+      ],
+      "lat": -23.517146,
+      "lon": -46.593014
+    },
+    {
+      "id": "k2",
+      "capacidade1": 70,
+      "capacidade2": 431,
+      "skills_requeridas": [
+        "s2"
+      ],
+      "lat": -23.485705,
+      "lon": -46.872348
+    },
+    {
+      "id": "k3",
+      "capacidade1": 55,
+      "capacidade2": 454,
+      "skills_requeridas": [
+        "s2"
+      ],
+      "lat": -23.625171,
+      "lon": -46.413872
+    },
+    {
+      "id": "k4",
+      "capacidade1": 68,
+      "capacidade2": 400,
+      "skills_requeridas": [],
+      "lat": -23.521373,
+      "lon": -46.34425
+    },
+    {
+      "id": "k5",
+      "capacidade1": 62,
+      "capacidade2": 331,
+      "skills_requeridas": [],
+      "lat": -23.462629,
+      "lon": -46.802701
+    },
+    {
+      "id": "k6",
+      "capacidade1": 51,
+      "capacidade2": 395,
+      "skills_requeridas": [
+        "s2"
+      ],
+      "lat": -23.586732,
+      "lon": -46.412793
+    },
+    {
+      "id": "k7",
+      "capacidade1": 46,
+      "capacidade2": 381,
+      "skills_requeridas": [
+        "s3"
+      ],
+      "lat": -23.508529,
+      "lon": -46.450258
+    },
+    {
+      "id": "k8",
+      "capacidade1": 66,
+      "capacidade2": 365,
+      "skills_requeridas": [],
+      "lat": -23.519875,
+      "lon": -46.731102
+    },
+    {
+      "id": "k9",
+      "capacidade1": 66,
+      "capacidade2": 300,
+      "skills_requeridas": [
+        "s1",
+        "s2"
+      ],
+      "lat": -23.472977,
+      "lon": -46.46211
+    },
+    {
+      "id": "k10",
+      "capacidade1": 64,
+      "capacidade2": 343,
+      "skills_requeridas": [
+        "s4"
+      ],
+      "lat": -23.427285,
+      "lon": -46.614636
+    },
+    {
+      "id": "k11",
+      "capacidade1": 61,
+      "capacidade2": 478,
+      "skills_requeridas": [
+        "s1",
+        "s4"
+      ],
+      "lat": -23.550434,
+      "lon": -46.626783
+    },
+    {
+      "id": "k12",
+      "capacidade1": 54,
+      "capacidade2": 435,
+      "skills_requeridas": [
+        "s2"
+      ],
+      "lat": -23.665639,
+      "lon": -46.602515
+    },
+    {
+      "id": "k13",
+      "capacidade1": 41,
+      "capacidade2": 332,
+      "skills_requeridas": [
+        "s1"
+      ],
+      "lat": -23.561775,
+      "lon": -46.454151
+    },
+    {
+      "id": "k14",
+      "capacidade1": 48,
+      "capacidade2": 463,
+      "skills_requeridas": [
+        "s5",
+        "s3"
+      ],
+      "lat": -23.417553,
+      "lon": -46.649398
+    },
+    {
+      "id": "k15",
+      "capacidade1": 61,
+      "capacidade2": 313,
+      "skills_requeridas": [
+        "s5",
+        "s4"
+      ],
+      "lat": -23.633437,
+      "lon": -46.55236
+    }
+  ]
+}
