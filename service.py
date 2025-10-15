@@ -1251,8 +1251,7 @@ def health():
 
 @app.post("/solve")
 def solve(req: SolveRequest, _=Depends(verify_token)):
-    if req.token != API_TOKEN:
-        raise HTTPException(status_code=401, detail="Token inválido")
+    
 
     # DataFrames
     clients_df = pd.DataFrame([c.dict() for c in req.clients])
